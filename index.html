@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Spotify Login Screen</title>
 </head>
 <body>
-    <h1>Spotify</h1>
-    <p><span>Sign In</span><span>Sign Up</span></p>
-    <form>
-        <input type="text"><br>
-        <input type="text"><br> 
-        <label><input type="checkbox" name="checkbox" id="checkbox">stay signed in</label>
-    </form>
-    <button>SIGN IN</button>
-    <p>Forgot Password?</p>
+    <div>
+        <div id="container">
+            <h1 id="heading"><i id="logo" class="fa fa-spotify logo" aria-hidden="true"></i> Spotify</h1>
+            <p><span class="subheading">Sign In</span><span class="subheading">Sign Up</span></p>
+            <form id="login-form">
+                <input class="form-text-input" type="text"><br>
+                <input class="form-text-input" type="text"><br> 
+                <label class="form-checkbox-input"><input class="form-checkbox-input" type="checkbox" name="checkbox" id="checkbox">stay signed in</label>
+            </form>
+            <button id="button">SIGN IN</button>
+            <p id="footer">Forgot Password?</p>
+        </div>
+    </div>
+        
 </body>
 </html>

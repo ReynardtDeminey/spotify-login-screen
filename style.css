@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+html {
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1533464826937-8876cc53ab92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    overflow: hidden;
+    padding: 0;
+}
+
+body {
+    background: rgba(112, 112, 128, 0.88);
+    height: 100vh;
+    padding: 8%;    
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    width: 30%;
+    margin: auto;
+    background-color: rgb(46,47,51);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#heading {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.subheading {
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#login-form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-text-input {
+    width: 75%;
+    margin: 12px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.form-checkbox-input {
+    margin-right: 10px;
+    color: white;
+}
+
+#button {
+    width: 75%;
+    margin-bottom: 20px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color:mediumseagreen;
+}
+
+#footer {
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
