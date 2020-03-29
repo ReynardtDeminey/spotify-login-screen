@@ -12,10 +12,11 @@
     <div>
         <div id="container">
             <h1 id="heading"><i id="logo" class="fa fa-spotify logo" aria-hidden="true"></i> Spotify</h1>
-            <p><span class="subheading">Sign In</span><span class="subheading">Sign Up</span></p>
+            <p><span onclick="SignInButton()" class="subheading">Sign In</span><span onclick="SignUpButton()" class="subheading">Sign Up</span></p>
             <form id="login-form">
-                <input class="form-text-input" type="text"><br>
-                <input class="form-text-input" type="text"><br> 
+                <input class="form-text-input" type="text" placeholder="Username"><br>
+                <input class="form-text-input" type="text" placeholder="Password"><br> 
+                <input style="display: none; margin-left: 12%;" id="sign-up" class="form-text-input" type="text" placeholder="Confirm Password"><br>
                 <label class="form-checkbox-input"><input class="form-checkbox-input" type="checkbox" name="checkbox" id="checkbox">stay signed in</label>
             </form>
             <button id="button">SIGN IN</button>
@@ -23,5 +24,8 @@
         </div>
     </div>
         
+
+
+    <script src="script.js"></script>
 </body>
 </html>
